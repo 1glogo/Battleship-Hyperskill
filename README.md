@@ -6,3 +6,4 @@ Description: This is an terminal based program, allowing for 2 peole to play bat
 Contact Information: willlogothetis@gmail.com
 
 Notes: all java files can be found in ./Battleship/task/src/battleship.
+        To play you need to run run the Main class.
