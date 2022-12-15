@@ -247,7 +247,7 @@ public class Main {
         }
         return status;
     }
-
+    //checking status of all boats and if they have been sunk for a player
     private static boolean checkIfAllBoatsSunk(int playerNumber){
         List<String> hitList = hitListBoth.get(playerNumber-1);
         boolean status = true;
