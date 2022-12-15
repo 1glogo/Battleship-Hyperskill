@@ -115,16 +115,16 @@ public class Main {
 
     }
     static int currentPlayer = 1;
-    public static void clrscr() {
+/*    public static void clrscr() {
         for (int i = 0; i < 30; i++)
-            System.out.print("\n");}
+            System.out.print("\n");}*/
 
     private static void changePlayer(){
         Scanner scanner = new Scanner(System.in);
             System.out.println("Press Enter and pass the move to another player\n");
             scanner.nextLine();
 
-            clrscr();
+            /*clrscr();*/
             if (currentPlayer == 1){
                 currentPlayer = 2;
             } else {
