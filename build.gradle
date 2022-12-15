@@ -16,19 +16,11 @@ subprojects {
         }
     }
 
-    compileTestJava {
-        javaCompiler = javaToolchains.compilerFor {
-            languageVersion = JavaLanguageVersion.of(testJava)
-        }
-    }
-
     repositories {
         mavenCentral()
         maven { url "https://packages.jetbrains.team/maven/p/academy/hyperskill-hspc" }
 		maven { url "https://jitpack.io" }
     }
-
-
 
     configurations.all {
         resolutionStrategy.cacheChangingModulesFor 0, 'seconds'
@@ -36,11 +28,6 @@ subprojects {
 
     sourceSets {
         main.java.srcDir 'src'
-    }
-
-    test {
-        systemProperty "file.encoding", "utf-8"
-        outputs.upToDateWhen { false }
     }
 
     compileJava.options.encoding = 'utf-8'
@@ -52,6 +39,8 @@ subprojects {
 project(':util') {
     dependencies {
         implementation 'com.github.hyperskill:hs-test:release-SNAPSHOT'
+        compileOnly 'org.projectlombok:lombok:1.18.24'
+        annotationProcessor 'org.projectlombok:lombok:1.18.24'
     }
 }
 
