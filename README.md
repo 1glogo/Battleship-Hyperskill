@@ -1,9 +1,16 @@
 # Battleship-Hyperskill
 
-Description: This is an terminal based program, allowing for 2 peole to play battleship. 
-             No testing file is provided as all testing was part of Jetbrains Hyperskill course.
+## Description:
+This is an terminal based program, allowing for 2 peole to play battleship. 
 
-Contact Information: willlogothetis@gmail.com
+No testing file is provided as all testing was part of Jetbrains Hyperskill course.
 
-Notes: all java files can be found in ./Battleship/task/src/battleship.
-        To play you need to run run the Main class.
+## Contact Information: 
+
+willlogothetis@gmail.com
+
+Will Logothetis
+
+## Notes:
+
+All java files can be found in ./Battleship/task/src/battleship.
